@@ -38,3 +38,20 @@ PIT is a mutation testing tool that runs your unit tests against automatically m
 
 ### 2. *JUnit*
 JUnit is a widely used regression testing framework in Java that supports unit testing, helping developers to speed up development while improving code quality. It can be integrated with various tools and frameworks for comprehensive testing and is used in this project for verifying the functionality of the TicketPriceCalculator system.
+
+ticket-price-calculator/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/thedeciders/pitest/
+│   │   │       ├── TicketPriceCalculator.java
+│   │   │       └── Passenger.java
+│   │   └── resources/
+│   └── test/
+│       ├── java/
+│       │   └── com/thedeciders/pitest/
+│       │       └── TicketPriceCalculatorTest.java
+│       └── resources/
+├── pom.xml
+└── README.md
