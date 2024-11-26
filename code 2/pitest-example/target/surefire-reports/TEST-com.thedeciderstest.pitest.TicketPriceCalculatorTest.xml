@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="94" failures="0" name="com.thedeciderstest.pitest.TicketPriceCalculatorTest" time="0.027" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.9+9-Ubuntu-123.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/srishti/Downloads/Mutation-Testing-master/code 2/pitest-example"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/srishti/Downloads/Mutation-Testing-master/code 2/pitest-example"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.9+9-Ubuntu-123.04"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2.0-39-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/srishti"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="srishti"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+  </properties>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithAdultsTAXI" time="0.003"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithAdultsShip" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortTaxiWithNegativeNumbers" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithAdultsBUS" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortBusBasic" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildNarrowCaseBUS" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForSeniorCitizenBus" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortEmptyArray" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFamilyMovie" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFamilyTRAIN" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortWithZero" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceHotelWithFamilyDiscount" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForSeniorCitizenTaxi" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForBoundaryAgesBus" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFamilyBUS" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForInvalidHighAgeBus" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithAdultsMovie" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithAdultsTRAIN" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testExtremeDiscountScenario" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildBUS" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFreeTicketNarrowCaseMovie" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFreeTicketNarrowCaseTRAIN" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForOneAdultBUS" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testSeniorCitizenBoundaryConditions" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceHotelSingleAdult" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceHotelSingleChild" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testNoPassengers" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildNarrowCaseMovie" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildNarrowCaseTRAIN" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortTaxiSingleElement" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortSubtractionAddition" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortParkSmallArray" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortAlreadySorted" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortTaxiEmptyArray" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFamilyTAXI" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFamilyShip" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceAirPlaneSingleAdult" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceAirPlaneSingleChild" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForSeniorCitizenAirPlane" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceTaxiSingleAdult" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceTaxiSingleChild" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildTAXI" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildShip" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForInvalidNegativeAgeBus" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortNegatedConditional" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceAirPlaneWithFamilyDiscount" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceTrainWithFamilyDiscount" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildMovie" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildTRAIN" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceHotelInvalidAgeNegative" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortEdgeCases" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortWithEdgeCase" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortTaxiBasic" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortWithRepeatedElements" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortParkLargeArray" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortPlaneBasic" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortTaxiWithZero" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testPriceCalculationAcrossMultipleTransportModes" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceTaxiWithFamilyDiscount" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMixedValidAndInvalidPassengers" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testInvalidAgeBoundary" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForSeniorCitizenHotel" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForOneAdultMovie" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForOneAdultTRAIN" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForSeniorCitizenTrain" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testExtremeAges" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithChildrenMovie" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithChildrenTRAIN" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFreeTicketNarrowCaseBUS" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFreeTicketNarrowCaseTAXI" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFreeTicketNarrowCaseShip" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortShipBasic" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortMultiplicationDivision" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForOneAdultTAXI" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForOneAdultShip" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testPriceCalculationForInvalidPassengers" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testFamilyDiscountAcrossModes" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithChildrenTAXI" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithChildrenShip" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortSingleElement" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildNarrowCaseTAXI" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForChildNarrowCaseShip" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testNoFamilyDiscount" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceAirPlaneInvalidAgeNegative" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceTrainInvalidAgeNegative" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testSeniorCitizenGroup" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortTrainBasic" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceTrainSingleAdult" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceTrainSingleChild" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortParkEdgeCases" time="0.001"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="shouldNotCalculatePriceForFamilyEdgeCaseWithChildrenBUS" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testMergeSortWithNegativeNumbers" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="testCalculatePriceTaxiInvalidAgeNegative" time="0"/>
+  <testcase classname="com.thedeciderstest.pitest.TicketPriceCalculatorTest" name="calculatePriceForFamilyDiscountBus" time="0.001"/>
+</testsuite>
